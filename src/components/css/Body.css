@@ -118,16 +118,24 @@
         width: 50%;
       
     }
+    .title h1{
+        font-size:3em;
+    }
 }
-@media (max-width:400px){
+@media (max-width:403px){
     .btn-cnf{
-        height:10%;
+        /* height:10%; */
+        font-size: 0.8em;
       
     }
     .btn-cnc{
         height:10%;
-        width: 40%;
+        width: 50%;
+        font-size: 0.8em;
       
+    }
+    .title h1{
+        font-size:2em;
     }
 }
 

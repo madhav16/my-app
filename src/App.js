@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Nav from './components/Nav.js';
 import Body from './components/Body.js';
@@ -12,18 +12,23 @@ import SideBar from './components/SideBar';
 import BestNaturePlace from './components/BestNaturePlace';
 function App() {
   return (
-    <>
-    <Nav/>
-    <Body/>
-    <Map/>
-    <EditProfile/>
+    <BrowserRouter>
+     <Nav/>
+     <Routes>
+   
+    <Route path="/" element={<HomePage/>}></Route>
+    <Route path="/body" element={<Body/>}></Route>
+    <Route path="/map" element={<Map/>}></Route>
+    <Route path="/editprofile" element={<EditProfile/>}></Route>
+    <Route path="/blog" element={<Blog1/>}></Route>
     {/* <Blog/> */}
-    <Blog1/>
-    <BookingDetails/>
+    <Route path="/bookingdetails" element={<BookingDetails/>}></Route>
+    
     {/* <SideBar/> */}
-    <HomePage/>
+    {/* <HomePage/> */}
     {/* <BestNaturePlace/> */}
-    </>
+    </Routes>
+    </BrowserRouter>
    
   );
 }
