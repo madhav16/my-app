@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins'; */
+    
+}
+
+.title-card{
+    color: white;
+    background-color:#09646D;
+    
+}
+.title{
+    color: #09646D;
+
+}
+.inc-h{
+    /* /height:80% */
+}
+.card-test{
+    width: 87%;
+    display: inline-block;
+}
+.col{
+    padding: 0;
+}
+.card-body p{
+    font-weight: bold;
+}
+.card-body p span{
+   
+        font-weight: normal;
+     
+}
+.card-text a{
+    text-decoration:none;
+    color:#FF4C04;
+    
+}
+.btn-cnf{
+    background-color: #FF4C04;
+    width: 32%;
+    
+    color: #fff;
+
+}
+.btn-cnf:hover {
+    background-color: #FF4C04;
+}
+.btn-cnc{
+    background-color:#09646D;
+    width: 30%;
+
+}
+.btn-cnc:hover {
+    background-color: #09646D;
+}
+
+@media (max-width:1400px){
+    .btn-cnf{
+        height:20%;
+      
+    }
+    .btn-cnc{
+        height:20%;
+        width: 40%;
+      
+    }
+   
+   
+}
+@media (max-width:1200px){
+    .btn-cnf{
+        height:10%;
+      
+    }
+    .btn-cnc{
+        height:10%;
+        width: 50%;
+      
+    }
+   
+   
+}
+@media (max-width:992px){
+    .btn-cnf{
+        height:10%;
+      
+    }
+    .btn-cnc{
+        height:10%;
+        width: 60%;
+      
+    }
+   
+}
+@media (max-width:768px){
+    .btn-cnf{
+        height:10%;
+      
+    }
+    .btn-cnc{
+        height:10%;
+        width: 60%;
+      
+    }
+   
+}
+@media (max-width:550px){
+    .btn-cnf{
+        height:10%;
+      
+    }
+    .btn-cnc{
+        height:10%;
+        width: 50%;
+      
+    }
+}
+@media (max-width:400px){
+    .btn-cnf{
+        height:10%;
+      
+    }
+    .btn-cnc{
+        height:10%;
+        width: 40%;
+      
+    }
+}
+
+
+
+

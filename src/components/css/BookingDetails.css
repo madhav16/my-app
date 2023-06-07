@@ -1,0 +1,50 @@
+.star{
+    color:gold;
+    margin-right: 1%;
+    margin-top:0.4%;
+    
+}
+.custom-padding{
+    padding-left: 40%;
+}
+.top-c{
+    background-color:#09646D;
+    color: white;
+}
+.b-text{
+    font-size:1.8em;
+}
+.custom-input{
+    border: none;
+    border-bottom: 3px solid lightgray;
+}
+/* @media (min-width:1400px) {
+    .custom-padding{
+        padding-left: 40%;
+    }
+}
+@media (min-width: 1200px) {
+    .custom-padding{
+        padding-left: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .custom-padding{
+        padding-left: 40%;
+    }
+}
+@media (min-width: 767px) {
+    .custom-padding{
+        padding-left: 40%;
+    }
+}
+@media (min-width: 550px) {
+    .custom-padding{
+        padding-left: 20%;
+    }
+}
+@media (min-width: 400px) {
+    .star{
+        font-size:100%;
+    }
+} */

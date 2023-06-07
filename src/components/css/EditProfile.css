@@ -1,0 +1,166 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.custom-img {
+   width: 15%;
+   height: 15%;
+   margin-right: 8%;
+}
+
+.custom-icon {
+   color: #09646D;
+   margin-top: -3%;
+   margin-right: 10%;
+
+}
+
+.custom-titile {
+   font-size: 2em;
+   color: #09646D;
+   margin-left: 9%;
+   margin-top: 2%;
+
+}
+
+.custom-margin-left {
+   margin-left: 6%;
+
+}
+
+.custom-margin-right {
+   margin-right: 6%;
+
+}
+
+.row1-text {
+   font-size: 1em;
+}
+
+.custom-size {
+   width: 94%;
+}
+
+.one-custom-margin {
+   margin-left: 3%;
+}
+
+.btn-cancle {
+   color: #09646D;
+   border: 1px solid #09646D;
+}
+
+.btn-save {
+   background-color: #09646D;
+   color: #fff;
+}
+
+.btn-cancle:hover {
+   color: #09646D;
+   border: 1px solid #09646D;
+}
+
+.btn-save:hover {
+   background-color: #09646D;
+   color: #fff;
+}
+@media (max-width: 992px) {
+ input::placeholder{
+   font-size:1em;
+ }
+ .custom-margin-left{
+   margin-left:3%;
+   margin-right: 3%;
+   
+ }
+ 
+ .custom-margin-right {
+   margin-right: 3%;
+   margin-left: 3%;
+
+}
+.btn-cancle{
+   margin-bottom: 2%;
+}
+.custom-img {
+   width: 18%;
+   height: 18%;
+   margin-right: 8%;
+}
+
+.custom-icon {
+   
+   margin-top: -3%;
+   margin-right: 10%;
+
+}
+.custom-titile {
+
+   margin-left: 9%;
+   margin-top: 2%;
+
+}
+}
+@media (max-width: 768px) {
+   input::placeholder{
+     font-size:2em;
+   }
+  
+   
+  
+  .custom-img {
+     width: 22%;
+     height: 22%;
+     margin-right: 8%;
+  }
+  
+  .custom-icon {
+     
+     margin-top: -4%;
+     margin-right: 10%;
+  
+  }
+  .custom-titile {
+   
+     margin-left: 9%;
+     margin-top: 2%;
+  
+  }
+  }
+  @media (max-width: 576px){
+   
+   .custom-titile{
+      font-size:1.9em;
+   }
+   .custom-img {
+      width: 27%;
+      height: 27%;
+      margin-right: 8%;
+   }
+   
+   .custom-icon {
+      
+      margin-top: -5%;
+      margin-right: 11%;
+   
+   }
+  }
+  @media (max-width: 400px){
+   
+   .custom-titile{
+      font-size:1.7em;
+   }
+   .custom-img {
+      width: 26%;
+      height: 26%;
+      margin-right: 8%;
+   }
+   
+   .custom-icon {
+      
+      margin-top: -5%;
+      margin-right: 10%;
+   
+   }
+  }

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.best-top-text {
+    font-size: 3em;
+    color: #09646D;
+
+}
+
+.best-star-margin {
+    margin-bottom: -6%;
+    z-index: 1;
+    background-color: #09646D;
+    display: inline-block;
+    margin-left: 90%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+
+}
+
+.best-star-margin1 {
+    z-index: 1;
+
+}
+
+.best-sub-text1 {
+    font-size: 1.5em;
+    padding-left: 4%;
+}
+
+.best-sub-text2 {
+    font-size: 1.5em;
+    color: green
+}
+
+.best-sub-text3 {
+    font-size: 0.9em;
+
+}
+
+.best-btn-more {
+    background-color: #09646D;
+    color: #fff;
+}
+
+.best-side-text-top {
+    font-size: 1.1em;
+}
+
+.best-side-text-chk {
+    font-size: 1em;
+}
+.best-side-text-chk1 {
+    font-size: 1em;
+}
+
+.best-select-w {
+    width: 30%;
+}
+
+@media (max-width:1400px) {
+    .best-sub-text1 {
+        font-size: 1.3em;
+    }
+
+    .best-sub-text2 {
+        font-size: 1.3em;
+    }
+
+    .best-sub-text3 {
+        font-size: 0.8em;
+    }
+
+    .best-side-text-top {
+        font-size: 1em;
+    }
+
+    .best-side-text-chk {
+        font-size: 0.9em;
+    }
+    .best-side-text-chk1 {
+        font-size: 0.8em;
+    }
+    .best-select-w {
+        width: 30%;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .best-sub-text1 {
+        font-size: 1.1em;
+    }
+
+    .best-sub-text2 {
+        font-size: 1.1em;
+    }
+
+    .best-sub-text3 {
+        font-size: 0.7em;
+    }
+
+    .best-side-text-top {
+        font-size: 0.9em;
+    }
+
+    .best-side-text-chk {
+        font-size: 0.8em;
+    }
+    .best-side-text-chk1 {
+        font-size: 0.6em;
+    }
+
+    .best-select-w {
+        width: 40%;
+        font-size:0.9em;
+    }
+}
+
+@media (max-width:992px) {
+    .best-sub-text1 {
+        font-size: 1.1em;
+    }
+
+    .best-sub-text2 {
+        font-size: 1.1em;
+    }
+
+    .best-sub-text3 {
+        font-size: 0.7em;
+    }
+
+    .best-side-text-top {
+        font-size: 0.9em;
+    }
+
+    .best-side-text-chk {
+        font-size: 0.8em;
+    }
+    .best-side-text-chk1 {
+        font-size: 0.6em;
+    }
+
+    .best-select-w {
+        width: 40%;
+        font-size:0.9em;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:574px) {}
+
+@media (max-width:500px) {}
+
+@media (max-width:400px) {}
