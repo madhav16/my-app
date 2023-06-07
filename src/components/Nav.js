@@ -13,11 +13,11 @@ function Nav1() {
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
           <Navbar.Collapse id="navbarNavAltMarkup">
             <Nav className="navbar-nav ml-auto align-items-center">
-              <Nav.Link href="/body" active><FaPhone /><span className="link-text">body</span></Nav.Link>
-              <Nav.Link href="/map"><FaUserPlus /><span className="link-text">map</span></Nav.Link>
-              <Nav.Link href="/editprofile"><FaTag /><span className="link-text">editprofile</span></Nav.Link>
-              <Nav.Link href="/blog"><FaDownload /><span className="link-text">blog</span></Nav.Link>
-              <Nav.Link href="/bookingdetails"><FaUser /><span className="link-text">bookingdetails</span></Nav.Link>
+              <Nav.Link href="#" active><FaPhone /><span className="link-text">9999999999</span></Nav.Link>
+              <Nav.Link href="#"><FaUserPlus /><span className="link-text">TRAVEL AGENT JOIN US</span></Nav.Link>
+              <Nav.Link href="#"><FaTag /><span className="link-text">OFFERS</span></Nav.Link>
+              <Nav.Link href="#"><FaDownload /><span className="link-text">DOWNLOAD APP</span></Nav.Link>
+              <Nav.Link href="#"><FaUser /><span className="link-text">USERNAME</span></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>

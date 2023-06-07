@@ -12,23 +12,18 @@ import SideBar from './components/SideBar';
 import BestNaturePlace from './components/BestNaturePlace';
 function App() {
   return (
-    <BrowserRouter>
-     <Nav/>
-     <Routes>
-   
-    <Route path="/" element={<HomePage/>}></Route>
-    <Route path="/body" element={<Body/>}></Route>
-    <Route path="/map" element={<Map/>}></Route>
-    <Route path="/editprofile" element={<EditProfile/>}></Route>
-    <Route path="/blog" element={<Blog1/>}></Route>
+    <>
+    <Nav/>
+    <Body/>
+    <Map/>
+    <EditProfile/>
     {/* <Blog/> */}
-    <Route path="/bookingdetails" element={<BookingDetails/>}></Route>
-    
+    <Blog1/>
+    <BookingDetails/>
     {/* <SideBar/> */}
-    {/* <HomePage/> */}
+    <HomePage/>
     {/* <BestNaturePlace/> */}
-    </Routes>
-    </BrowserRouter>
+    </>
    
   );
 }
